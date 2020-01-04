@@ -1,0 +1,1 @@
+colored_hexes_enabled = true;
