@@ -3,8 +3,7 @@
 author = "Pizza Man";
 OnLoadName = "Colored Hexes";
 
-class Header 
-{
+class Header {
 	gameType = Sandbox;
 	minPlayers = 1;
 	maxPlayers = 30;
@@ -20,6 +19,3 @@ joinUnassigned = 0;
 
 // CFG
 #include "functions.hpp"
-#include "hud\common.hpp"
-#include "hud\dialog\dialog_master.hpp"
-#include "hud\rscTitles\rsc_titles_master.hpp"

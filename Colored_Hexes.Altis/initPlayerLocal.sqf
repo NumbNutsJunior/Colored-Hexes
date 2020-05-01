@@ -10,4 +10,4 @@ enableTeamSwitch false;
 call pizza_fnc_configuration;
 
 // Init colored group indicators
-call pizza_fnc_coloredHexes;
+call pizza_fnc_initColoredHexes;

@@ -1,1 +1,1 @@
-colored_hexes_enabled = true;
+pizza_colored_hexes_enabled = true;

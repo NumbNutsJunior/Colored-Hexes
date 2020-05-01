@@ -11,11 +11,7 @@ class CfgFunctions {
 		class ClientFunctions {
 			file = "functions";
 
-			class coloredHexes {};
-		};
-
-		class HUDFunctions {
-			file = "hud\functions";
+			class initColoredHexes {};
 		};
 	};
 };
