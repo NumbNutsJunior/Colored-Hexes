@@ -27,8 +27,8 @@ addMissionEventHandler ["Draw3D", {
 		private _unitVehicle = vehicle _unit;
 		private _unitInVehicle = !(_unit isEqualTo _unitVehicle);
 
-		// Don't draw on player
-		if !(_unitVehicle isEqualTo (vehicle player)) then {
+		// Don't draw on player or dead units
+		if ((alive _unit) && !(_unitVehicle isEqualTo (vehicle player))) then {
 
 			// Check for any duplicate vehicles
 			if (((_unitInVehicle) && !(_unitVehicle in _vehicles)) || !(_unitInVehicle)) then {
